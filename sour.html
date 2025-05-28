@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dsource</title>  
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <header>
+        
+        <div class="logo">
+            <img src="dlogo.png" alt="Dsource Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Spacer to prevent content from hiding behind fixed navbar -->
+    <div class="spacer"></div>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Dsource Coffee Shop</h1>
+            <p>Taste the best and sweetest coffee.</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+        <div class="coffee-image">
+            <img src="coffee.jpg" alt="coffee image">
+        </div>
+    </section>
+
+    <section id="about" class="about dark-theme">
+        <div class="about-content">
+            <h2>About Dsource</h2>
+            <p>a cozy haven for coffee lovers, where rich aromas and warm ambiance create the perfect escape. Whether you're here for your morning pick-me-up, a midday retreat, or an evening wind-down, our handcrafted brews and artisan pastries are made to satisfy your soul.</p>
+            <p>From velvety lattes to bold espressos, each cup is brewed with passion, using the finest beans sourced from around the world. Pair your drink with a selection of freshly baked treats, and enjoy the inviting atmosphere perfect for work, conversation, or relaxation.</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+        <div class="about-image">
+            <img src="kape.jpg" alt="About Image">
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="caramel.jpg" alt="caramel">
+                <h3>Caramel Macchiato</h3>
+                <p>The Caramel Macchiato is a perfect harmony of bold espresso, velvety steamed milk, and rich vanilla syrup, topped with a luscious drizzle of golden caramel. Every sip is a delightful balance of smooth, creamy sweetness and deep, aromatic coffee flavors, making it a truly irresistible treat.</p>
+            </div>
+            <div class="menu-item">
+                <img src="americano.jpg" alt="americano">
+                <h3>Americano</h3>
+                <p>The Americano offers a bold yet smooth coffee experience, balancing rich espresso flavors with the refreshing lightness of hot water. It boasts a deep, aromatic profile with subtle notes of caramel, chocolate, and toasted nuts, finished with a silky, satisfying finish. Perfectly balanced, its both invigorating and effortlessly drinkable.</p>
+            </div>
+            <div class="menu-item">
+                <img src="frappu.jpg" alt="frappu">
+                <h3>Frappuccino</h3>
+                <p>Frappuccino is a perfect blend of rich, bold coffee and creamy sweetness, delivering a smooth and refreshing taste. With its icy texture, velvety consistency, and just the right balance of coffee and sweetness, each sip is a delightful treat. Whether topped with whipped cream or enjoyed straight, its the ultimate pick-me-up for any coffee lover!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservations" class="reservations container mx-auto flex justify-center items-center min-h-screen">
+        <div class="bg-gray-900 p-8 rounded-lg shadow-lg w-full max-w-md">
+            <h1 class="text-2xl font-bold text-center text-white mb-6">Make a Reservation</h1>
+            <form>
+                <div class="mb-4">
+                    <input type="text" placeholder="Your Name" class="w-full p-3 rounded bg-gray-700 text-white placeholder-gray-400">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Your Email" class="w-full p-3 rounded bg-gray-700 text-white placeholder-gray-400">
+                </div>
+                <div class="mb-4">
+                    <input type="tel" placeholder="Phone Number" class="w-full p-3 rounded bg-gray-700 text-white placeholder-gray-400">
+                </div>
+                <div class="mb-4 relative">
+                    <input type="text" placeholder="mm/dd/yyyy" class="w-full p-3 rounded bg-gray-700 text-white placeholder-gray-400">
+                    <i class="fas fa-calendar-alt absolute right-3 top-3 text-gray-400"></i>
+                </div>
+                <div class="mb-4 relative">
+                    <input type="text" placeholder="--:-- --" class="w-full p-3 rounded bg-gray-700 text-white placeholder-gray-400">
+                    <i class="fas fa-clock absolute right-3 top-3 text-gray-400"></i>
+                </div>
+                <div class="mb-6">
+                    <textarea placeholder="Additional Message" class="w-full p-3 rounded bg-gray-700 text-white placeholder-gray-400 h-32"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="submit-btn bg-red-600 text-white py-2 px-6 rounded hover:bg-red-700">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="image-grid">
+            <div class="image-item"><img src="pic1.jpg" alt="Image 1"></div> 
+            <div class="image-item"><img src="pic2.jpg" alt="Image 2"></div>
+            <div class="image-item"><img src="pic3.jpg" alt="Image 3"></div>
+            <div class="image-item"><img src="pic4.jpg" alt="Image 4"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Main Street, City, Country</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <nav class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#reservations">Reservations</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        <p class="footer-text">&copy; 2025 Dsource. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
