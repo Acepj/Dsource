@@ -1,4 +1,4 @@
-# Dsource Coffee Shop
+# Dsource Coffee Shopp
 
 A coffee shop website designed to showcase Dsource's coffee menu, company information, reservations, gallery, and contact details.
 
